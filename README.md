@@ -1,1 +1,2 @@
 # PCI_Target_Device
+A Verilog Project To Create a synthesizable PCI Target Device with many scenarios of reading and writing Data to and from a buffer in the device with a condition that if the data to be written to the buffer is greater than his limit a larger buffer will store the previous data in the small buffer to let the small buffer able to store again and during the transfer of data TRDY=1 as an active low signal until transfer is completed, We Test it Using Test Bench That act as a Master Device . 
